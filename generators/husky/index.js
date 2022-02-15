@@ -10,7 +10,7 @@ module.exports = class extends Generator {
       {
         scripts: {
           prepare: "husky install",
-          "pre-comimt": "lint-staged"
+          "pre-commit": "lint-staged"
         }
       },
       this.packageJson
